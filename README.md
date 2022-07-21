@@ -4,15 +4,22 @@ A Web App integrated with ML models to recognize human faces
 ## Install
 1. Install Anaconda Python
 2. Install virtural environment
-3. Activate virtual environment
-   ```sh
-   source freeai/bin/activate
    ```
-4. Install dependencies in requirement.txt
+   python3 -m pip install --user virtualenv
+   ```
+3. Create virtual environment
+   ```
+   python3 -m venv flask
+   ```
+4. Activate virtual environment
+   ```sh
+   source flask/bin/activate
+   ```
+5. Install dependencies in requirement.txt
    ```
    pip install -r requirements.txt
    ```
-5. Install OpenCV
+6. Install OpenCV
 
 ## Develop Face Recognition model
 1. Data preprocessing including cropping face, adjust the size, EDA, normalization
