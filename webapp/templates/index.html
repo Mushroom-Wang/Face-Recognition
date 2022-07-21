@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{%block bodyblock %}
+
+        <div class="container">
+            <br><br>
+            <h3 class="content"> Welcome to Face Recognition Web App by Quan Wang</h3>
+        <br>
+        <p>Click <b>FaceApp</b> to Try it Now</p>
+        <ul>
+            <li>Designed a machine learning model that automatically detects human faces and classify genders.</li>
+            <li>Created a pipeline that converts image to greyscale, crops and extracts face, preprocesses data, flattens to eigen face, classifies by SVM, and outputs the result.</li>
+            <li>Integrated the face recognition model to Flask web app such that it detects face and identify gender after user upload an image.</li>
+        </ul>
+        </div>
+
+{% endblock  %}
